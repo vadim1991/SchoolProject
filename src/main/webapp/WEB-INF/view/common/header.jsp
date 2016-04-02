@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <header>
     <div class="bg-primary">
         <div class="container">
@@ -22,7 +23,7 @@
             <nav class="nav">
                 <ul class="sf-menu" data-type="navbar">
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="index.jsp">Home</a>
                         <ul>
                             <li>
                                 <a href="#">Incididunt ut labore</a>
@@ -59,7 +60,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="index-1.html">About</a>
+                        <a href="about.jsp">About</a>
                     </li>
                     <li>
                         <a href="index-2.html">Courses</a>
@@ -81,7 +82,8 @@
             </nav>
         </div>
     </div>
-    <div class="camera_container">
+    <c:if test="${param.camera}">
+        <div class="camera_container">
         <div id="camera" class="camera_wrap">
             <div data-src="images/page-1_slide01.jpg">
                 <div class="camera_caption fadeIn">
@@ -133,4 +135,5 @@
             </div>
         </div>
     </div>
+    </c:if>
 </header>
