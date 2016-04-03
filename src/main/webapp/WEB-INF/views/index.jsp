@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:include page="WEB-INF/view/common/head.jsp">
+<jsp:include page="common/head.jsp">
   <jsp:param name="pageName" value="Home"></jsp:param>
 </jsp:include>
 
@@ -10,7 +10,7 @@
   <!--========================================================
                             HEADER
   =========================================================-->
-  <jsp:include page="WEB-INF/view/common/header.jsp">
+  <jsp:include page="common/header.jsp">
     <jsp:param name="camera" value="${true}"></jsp:param>
   </jsp:include>
   <!--========================================================
@@ -26,7 +26,7 @@
 
               <p>Lorem ipsum dolor sit amet conse ctetur adipisicing.</p>
             </div>
-            <img class="img_ablso1" src="images/page-1_img01.png" alt=""/>
+            <img class="img_ablso1" src="/resources/images/page-1_img01.png" alt=""/>
           </div>
           <div class="grid_4 bg-primary bg-primary_hover wow fadeInUp" data-wow-delay="1.5s" data-equal-group="1">
             <div class="section1">
@@ -34,7 +34,7 @@
 
               <p>Lorem ipsum dolor sit amet conse ctetur adipisicing.</p>
             </div>
-            <img class="img_ablso2" src="images/page-1_img02.png" alt=""/>
+            <img class="img_ablso2" src="/resources/images/page-1_img02.png" alt=""/>
           </div>
           <div class="grid_4 bg-primary bg-primary_hover wow fadeInRight" data-wow-delay="1.3s" data-equal-group="1">
             <div class="section1">
@@ -42,7 +42,7 @@
 
               <p>Lorem ipsum dolor sit amet conse ctetur adipisicing.</p>
             </div>
-            <img class="img_ablso3" src="images/page-1_img03.png" alt=""/>
+            <img class="img_ablso3" src="/resources/images/page-1_img03.png" alt=""/>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
 
         <div class="row">
           <div class="grid_3 wow fadeInUp" data-wow-delay="0.2s">
-            <img src="images/page-1_img04.jpg" alt=""/>
+            <img src="/resources/images/page-1_img04.jpg" alt=""/>
 
             <h3><span class="ins_media">Breakfast</span></h3>
 
@@ -75,7 +75,7 @@
             <a class="btn btn__lg" href="#">See all</a>
           </div>
           <div class="grid_3 wow fadeInUp" data-wow-delay="0.4s">
-            <img src="images/page-1_img05.jpg" alt=""/>
+            <img src="/resources/images/page-1_img05.jpg" alt=""/>
 
             <h3><span class="ins_media">Lunch</span></h3>
 
@@ -85,7 +85,7 @@
             <a class="btn btn__lg" href="#">See all</a>
           </div>
           <div class="grid_3 wow fadeInUp" data-wow-delay="0.6s">
-            <img src="images/page-1_img06.jpg" alt=""/>
+            <img src="/resources/images/page-1_img06.jpg" alt=""/>
 
             <h3><span class="ins_media">Dinner</span></h3>
 
@@ -95,7 +95,7 @@
             <a class="btn btn__lg" href="#">See all</a>
           </div>
           <div class="grid_3 wow fadeInUp" data-wow-delay="0.8s">
-            <img src="images/page-1_img07.jpg" alt=""/>
+            <img src="/resources/images/page-1_img07.jpg" alt=""/>
 
             <h3><span class="ins_media">Dessert</span></h3>
 
@@ -111,7 +111,7 @@
       <h3 class="center"><span>Latest Recipes</span></h3>
       <ul class="inline-list">
         <li>
-          <img src="images/page-1_img08.jpg" alt=""/>
+          <img src="/resources/images/page-1_img08.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -121,7 +121,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img09.jpg" alt=""/>
+          <img src="/resources/images/page-1_img09.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -131,7 +131,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img10.jpg" alt=""/>
+          <img src="/resources/images/page-1_img10.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -141,7 +141,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img11.jpg" alt=""/>
+          <img src="/resources/images/page-1_img11.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -151,7 +151,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img12.jpg" alt=""/>
+          <img src="/resources/images/page-1_img12.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -161,7 +161,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img13.jpg" alt=""/>
+          <img src="/resources/images/page-1_img13.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -171,7 +171,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img14.jpg" alt=""/>
+          <img src="/resources/images/page-1_img14.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -181,7 +181,7 @@
           <span class="overlay"></span>
         </li>
         <li>
-          <img src="images/page-1_img15.jpg" alt=""/>
+          <img src="/resources/images/page-1_img15.jpg" alt=""/>
 
           <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -229,7 +229,7 @@
         <div class="owl-carousel">
           <div class="item">
             <blockquote class="box">
-              <img class="box_aside" src="images/page-1_img16.jpg" alt=""/>
+              <img class="box_aside" src="/resources/images/page-1_img16.jpg" alt=""/>
 
               <div class="box_cnt__no-flow">
                 <p><q><span class="fa-quote-right"></span>Lorem ipsum dolor sit amet conse ctetur
@@ -248,7 +248,7 @@
           </div>
           <div class="item">
             <blockquote class="box">
-              <img class="box_aside" src="images/page-1_img17.jpg" alt=""/>
+              <img class="box_aside" src="/resources/images/page-1_img17.jpg" alt=""/>
 
               <div class="box_cnt__no-flow">
                 <p><q><span class="fa-quote-right"></span>Lorem ipsum dolor sit amet conse ctetur
@@ -267,7 +267,7 @@
           </div>
           <div class="item">
             <blockquote class="box">
-              <img class="box_aside" src="images/page-1_img17.jpg" alt=""/>
+              <img class="box_aside" src="/resources/images/page-1_img17.jpg" alt=""/>
 
               <div class="box_cnt__no-flow">
                 <p><q><span class="fa-quote-right"></span>Lorem ipsum dolor sit amet conse ctetur
@@ -354,6 +354,6 @@
   </footer>
 </div>
 
-<script src="js/script.js"></script>s
+<script src="/resources/js/script.js"></script>s
 </body>
 </html>

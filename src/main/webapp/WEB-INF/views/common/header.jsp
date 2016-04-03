@@ -14,7 +14,7 @@
         <div class="container">
             <div class="brand">
                 <a href="./">
-                    <img src="images/brand.png" alt=""/>
+                    <img src="/resources/images/brand.png" alt=""/>
 
                     <h1 class="brand_name">Cooking School</h1>
                 </a>
@@ -85,7 +85,7 @@
     <c:if test="${param.camera}">
         <div class="camera_container">
         <div id="camera" class="camera_wrap">
-            <div data-src="images/page-1_slide01.jpg">
+            <div data-src="/resources/images/page-1_slide01.jpg">
                 <div class="camera_caption fadeIn">
                     <div class="container">
                         <div class="bg-secondary">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div data-src="images/page-1_slide02.jpg">
+            <div data-src="/resources/images/page-1_slide02.jpg">
                 <div class="camera_caption fadeIn">
                     <div class="container">
                         <div class="bg-secondary">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div data-src="images/page-1_slide03.jpg">
+            <div data-src="/resources/images/page-1_slide03.jpg">
                 <div class="camera_caption fadeIn">
                     <div class="container">
                         <div class="bg-secondary">

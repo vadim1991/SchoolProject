@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<jsp:include page="WEB-INF/view/common/head.jsp">
+<jsp:include page="common/head.jsp">
     <jsp:param name="pageName" value="Cources"></jsp:param>
 </jsp:include>
 
@@ -10,7 +10,7 @@
     <!--========================================================
                               HEADER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/header.jsp">
+    <jsp:include page="common/header.jsp">
         <jsp:param name="camera" value="${false}"></jsp:param>
     </jsp:include>
     <!--========================================================
@@ -23,7 +23,7 @@
 
                 <div class="row off1">
                     <div class="grid_4 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
-                        <img src="images/page-3_img01.jpg" alt=""/>
+                        <img src="/resources/images/page-3_img01.jpg" alt=""/>
 
                         <div class="description">
                             <dl>
@@ -47,7 +47,7 @@
                         <a class="btn btn__lg" href="#">Read More</a>
                     </div>
                     <div class="grid_4 wow fadeIn" data-wow-duration="3s">
-                        <img src="images/page-3_img02.jpg" alt=""/>
+                        <img src="/resources/images/page-3_img02.jpg" alt=""/>
 
                         <div class="description">
                             <dl>
@@ -70,7 +70,7 @@
                         <a class="btn btn__lg" href="#">Read More</a>
                     </div>
                     <div class="grid_4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s">
-                        <img src="images/page-3_img03.jpg" alt=""/>
+                        <img src="/resources/images/page-3_img03.jpg" alt=""/>
 
                         <div class="description">
                             <dl>
@@ -101,7 +101,7 @@
 
                 <div class="row off2">
                     <div class="grid_4">
-                        <img class="mg_add" src="images/page-3_img04.jpg" alt=""/>
+                        <img class="mg_add" src="/resources/images/page-3_img04.jpg" alt=""/>
                     </div>
                     <div class="grid_4">
                         <h6>umisl erat ornare velit, ut semper odio magna in sem. Integer sed purus congue, dignissim
@@ -202,7 +202,7 @@
             <h3><span>Our Students' Dishes</span></h3>
             <ul class="inline-list">
                 <li>
-                    <img src="images/page-3_img05.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img05.jpg" alt=""/>
 
                     <h4><a href="#">Vestibulum iaculis lacinia est</a></h4>
 
@@ -212,7 +212,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img06.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img06.jpg" alt=""/>
 
                     <h4><a href="#">Excepteur sint occaecat cupidatat</a></h4>
 
@@ -222,7 +222,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img07.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img07.jpg" alt=""/>
 
                     <h4><a href="#">Hendreritivamus eget nibh vel metus</a></h4>
 
@@ -232,7 +232,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img08.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img08.jpg" alt=""/>
 
                     <h4><a href="#">Nulla facilisii primis neclaoreet</a></h4>
 
@@ -242,7 +242,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img09.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img09.jpg" alt=""/>
 
                     <h4><a href="#">Proin dictum elementum velit</a></h4>
 
@@ -252,7 +252,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img10.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img10.jpg" alt=""/>
 
                     <h4><a href="#">Fusce euismod consequat ante</a></h4>
 
@@ -262,7 +262,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img11.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img11.jpg" alt=""/>
 
                     <h4><a href="#">Etiam cursus leo psum</a></h4>
 
@@ -272,7 +272,7 @@
                     <span class="overlay"></span>
                 </li>
                 <li>
-                    <img src="images/page-3_img12.jpg" alt=""/>
+                    <img src="/resources/images/page-3_img12.jpg" alt=""/>
 
                     <h4><a href="#">Vestibulum ante faucibus orci</a></h4>
 
@@ -288,11 +288,11 @@
     <!--========================================================
                               FOOTER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/footer.jsp">
+    <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
     </jsp:include>
 </div>
 
-<script src="js/script.js"></script>
+<script src="/resources/js/script.js"></script>
 </body>
 </html>

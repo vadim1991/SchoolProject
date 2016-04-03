@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:include page="WEB-INF/view/common/head.jsp">
+<jsp:include page="common/head.jsp">
     <jsp:param name="pageName" value="About"></jsp:param>
 </jsp:include>
 
@@ -10,7 +10,7 @@
     <!--========================================================
                               HEADER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/header.jsp">
+    <jsp:include page="common/header.jsp">
         <jsp:param name="camera" value="${false}"></jsp:param>
     </jsp:include>
 
@@ -25,7 +25,7 @@
 
                 <div class="row off1">
                     <div class="grid_6 wow fadeInLeft" data-wow-duration="2s">
-                        <img src="images/page-2_img1.jpg" alt=""/>
+                        <img src="/resources/images/page-2_img1.jpg" alt=""/>
                         <h6> Nunc ante dolor hendrerit congue sodales mollis, aliquam ut quam Nulla facilisi. Aliquam et
                             pelle
                             ntesque leoquis accumsan nulla. Quisque vulputate, purus et ornare ferment</h6>
@@ -44,7 +44,7 @@
                             um nunc. Morbi ac sem in neque molestie sollicitudin commodo sit amet ipsum</p>
                     </div>
                     <div class="grid_6 wow fadeInRight" data-wow-duration="2s">
-                        <img src="images/page-2_img2.jpg" alt=""/>
+                        <img src="/resources/images/page-2_img2.jpg" alt=""/>
                         <h6> Nunc ante dolor hendrerit congue sodales mollis, aliquam ut quam Nulla facilisi. Aliquam et
                             pelle
                             ntesque leoquis accumsan nulla. Quisque vulputate, purus et ornare ferment</h6>
@@ -69,22 +69,22 @@
             <h3><span>Meet Our Team</span></h3>
             <ul class="inline-list">
                 <li class=" wow fadeInLeft" data-wow-delay="0.3s">
-                    <img src="images/page-2_img3.jpg" alt=""/>
+                    <img src="/resources/images/page-2_img3.jpg" alt=""/>
 
                     <h4 class="mod1"><a href="#">Camala Haddon</a></h4>
                 </li>
                 <li class="wow fadeInRight">
-                    <img src="images/page-2_img4.jpg" alt=""/>
+                    <img src="/resources/images/page-2_img4.jpg" alt=""/>
 
                     <h4 class="mod1"><a href="#">Mark Johnson</a></h4>
                 </li>
                 <li class=" wow fadeInLeft">
-                    <img src="images/page-2_img5.jpg" alt=""/>
+                    <img src="/resources/images/page-2_img5.jpg" alt=""/>
 
                     <h4 class="mod1"><a href="#">Eva Savits</a></h4>
                 </li>
                 <li class="wow fadeInRight" data-wow-delay="0.3s">
-                    <img src="images/page-2_img6.jpg" alt=""/>
+                    <img src="/resources/images/page-2_img6.jpg" alt=""/>
 
                     <h4 class="mod1"><a href="#">Gloria Mann</a></h4>
                 </li>
@@ -198,11 +198,11 @@
     <!--========================================================
                               FOOTER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/footer.jsp">
+    <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
     </jsp:include>
 </div>
 
-<script src="js/script.js"></script>s
+<script src="/resources/js/script.js"></script>
 </body>
 </html>

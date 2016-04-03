@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:include page="WEB-INF/view/common/head.jsp">
+<jsp:include page="common/head.jsp">
     <jsp:param name="pageName" value="Contacts"></jsp:param>
 </jsp:include>
 
@@ -10,7 +10,7 @@
     <!--========================================================
                               HEADER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/header.jsp">
+    <jsp:include page="common/header.jsp">
         <jsp:param name="camera" value="${false}"></jsp:param>
     </jsp:include>
     <!--========================================================
@@ -117,11 +117,11 @@
     <!--========================================================
                               FOOTER
     =========================================================-->
-    <jsp:include page="WEB-INF/view/common/footer.jsp">
+    <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
     </jsp:include>
 </div>
 
-<script src="js/script.js"></script>
+<script src="/resources/js/script.js"></script>
 </body>
 </html>
