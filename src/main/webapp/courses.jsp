@@ -288,13 +288,9 @@
     <!--========================================================
                               FOOTER
     =========================================================-->
-    <footer class="footer_ins1">
-        <section class='bg-primary copyright center'>
-            <p>Cooking School &#169; <span id="copyright-year"></span>.
-                <a href="index-5.html">Privacy Policy</a>
-            </p>
-        </section>
-    </footer>
+    <jsp:include page="WEB-INF/view/common/footer.jsp">
+        <jsp:param name="menu" value="${false}"></jsp:param>
+    </jsp:include>
 </div>
 
 <script src="js/script.js"></script>
