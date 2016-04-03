@@ -353,35 +353,4 @@ $(document).ready(function () {
 
 /* Style Switcher
  =============================================*/
-;(function ($) {
-    include('js/jquery.rd-styleswitcher.js');
-    $(document).ready(function () {
-        $.rdstyleswitcher({
-            schemes: [
-                {
-                    'id': 'Scheme 1',
-                    'icon': '#f03839'
-                },
-                {
-                    'id': 'Scheme 2',
-                    'url': 'css/colorScheme-1.css',
-                    'icon': '#FF9800'
-                }, 
-                {
-                    'id': 'Scheme 3',
-                    'url': 'css/colorScheme-2.css',
-                    'icon': '#2196F3'
-                },
-                {
-                    'id': 'Scheme 4',
-                    'url': 'css/colorScheme-3.css',
-                    'icon': '#4cc7bc'
-                },{
-                    'id': 'Scheme 5', 
-                    'url': 'css/colorScheme-4.css',
-                    'icon': '#4CAF50'
-                }
-            ]
-        });
-    });
-})(jQuery);
+;
