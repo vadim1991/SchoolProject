@@ -5,8 +5,8 @@
         <div class="container">
             <div class="info-box">
                 <p>Free Phone:</p>
-                <a class="fa-phone" href="callto:#">800-2345-6789</a>
-                <a class="fa-envelope-o" href="mailto:#">info@demolink.org</a>
+                <a class="fa-phone" href="callto:#">(095) 681-02-96</a>
+                <a class="fa-envelope-o" href="mailto:#">vadimvlasenko91@gmail.com</a>
             </div>
         </div>
     </div>
@@ -63,13 +63,13 @@
                         <a href="about.jsp">About</a>
                     </li>
                     <li>
-                        <a href="index-2.html">Courses</a>
+                        <a href="courses.jsp">Courses</a>
                     </li>
                     <li>
-                        <a href="index-3.html">Recipes</a>
+                        <a href="recipes.jsp">Recipes</a>
                     </li>
                     <li>
-                        <a href="index-4.html">Contacts</a>
+                        <a href="contacts.jsp">Contacts</a>
                     </li>
                 </ul>
                 <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">

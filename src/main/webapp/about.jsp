@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+<html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:include page="WEB-INF/view/common/head.jsp"></jsp:include>
+<jsp:include page="WEB-INF/view/common/head.jsp">
+    <jsp:param name="pageName" value="About"></jsp:param>
+</jsp:include>
 
 <body>
 <div class="page">

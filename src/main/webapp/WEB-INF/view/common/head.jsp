@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <head>
-    <title>Home</title>
+    <title>${param.pageName}</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/styleswitcher.css">
     <link rel="stylesheet" href="css/colorScheme-4.css">
 
