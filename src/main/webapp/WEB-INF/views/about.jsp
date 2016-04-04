@@ -200,6 +200,7 @@
     =========================================================-->
     <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
+        <jsp:param name="page" value="about"></jsp:param>
     </jsp:include>
 </div>
 

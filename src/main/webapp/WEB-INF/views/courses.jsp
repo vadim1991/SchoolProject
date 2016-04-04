@@ -290,6 +290,7 @@
     =========================================================-->
     <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
+        <jsp:param name="page" value="courses"></jsp:param>
     </jsp:include>
 </div>
 

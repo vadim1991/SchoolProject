@@ -47,5 +47,10 @@
     <!--</beans:bean>-->
 
     <context:component-scan base-package="ua.com.school"/>
+    <view-controller path="/" view-name="index"/>
+    <view-controller path="/about" view-name="about"/>
+    <view-controller path="/recipes" view-name="recipes"/>
+    <view-controller path="/contacts" view-name="contacts"/>
+    <view-controller path="/courses" view-name="courses"/>
 
 </beans:beans>

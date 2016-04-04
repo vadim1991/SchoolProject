@@ -24,20 +24,20 @@
                 <div class="map">
                     <div id="google-map" class="map_model"></div>
                     <ul class="map_locations">
-                        <li data-x="-73.9874068" data-y="40.643180">
-                            <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+                        <li data-x="36.225011" data-y="50.029144">
+                            <p>Serhiya Yesenina St, 8, Kharkiv, Харківська, Ukraine, 61000<span>800 2345-6789</span></p>
                         </li>
                     </ul>
                 </div>
                 <div class="row off2">
                     <div class="grid_4 wow fadeInLeft">
                         <div class="contact-info fa-envelope">
-                            <a href="mailto:x">mail@demolink.org</a>
+                            <a href="mailto:x">test.cuisineschool@gmail.com</a>
                         </div>
                     </div>
                     <div class="grid_4 wow fadeInUp">
                         <div class="contact-info fa-mobile">
-                            <a href="callto:x">+1 800 559 6580</a>
+                            <a href="callto:x">(095) 681-02-96</a>
                         </div>
                     </div>
                     <div class="grid_4 wow fadeInRight">
@@ -119,6 +119,7 @@
     =========================================================-->
     <jsp:include page="common/footer.jsp">
         <jsp:param name="menu" value="${false}"></jsp:param>
+        <jsp:param name="page" value="contacts"></jsp:param>
     </jsp:include>
 </div>
 

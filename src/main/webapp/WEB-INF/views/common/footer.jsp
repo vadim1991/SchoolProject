@@ -51,3 +51,9 @@
         </p>
     </section>
 </footer>
+
+<script>
+    $(document).ready(function () {
+        $("#" + "${param.page}").addClass("active");
+    });
+</script>
