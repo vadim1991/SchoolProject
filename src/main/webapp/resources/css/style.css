@@ -1098,7 +1098,7 @@ nav {
   transition: 1s;
 }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 599px) {
   .toTop {
     display: none !important;
   }

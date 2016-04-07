@@ -11,5 +11,30 @@
 
     <bean id="jsonObject" class="com.fasterxml.jackson.databind.ObjectMapper"/>
 
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>/WEB-INF/spring/mongodb.properties</value>
+                <value>/WEB-INF/spring/cloudinary-config.properties</value>
+            </list>
+        </property>
+        <!--<property name="location" value="/WEB-INF/spring/mongodb.properties"/>-->
+    </bean>
+
+    <bean class="com.cloudinary.Cloudinary">
+        <constructor-arg name="config" ref="cloudinaryConfig"/>
+    </bean>
+
+    <bean id="cloudinaryConfig" class="java.util.HashMap" scope="prototype" >
+        <constructor-arg>
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="cloud_name" value="${cloud.name}" />
+                <entry key="api_key" value="${API.Key}" />
+                <entry key="api_secret" value="${API.Secret}" />
+            </map>
+        </constructor-arg>
+    </bean>
+
+    <import resource="mongo-app.xml"></import>
 
 </beans>

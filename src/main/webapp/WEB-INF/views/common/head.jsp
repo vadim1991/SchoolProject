@@ -15,10 +15,15 @@
     <link rel="stylesheet" href="/resources/css/contact-form.css">
     <link rel="stylesheet" href="/resources/css/styleswitcher.css">
     <link rel="stylesheet" href="/resources/css/colorScheme-4.css">
+    <link rel="stylesheet" href="/resources/css/touchTouch.css">
+    <link rel="stylesheet" href="/resources/css/custom.css">
 
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
     <script src="/resources/js/jquery.js"></script>
     <script src="/resources/js/jquery-migrate-1.2.1.js"></script>
+    <script src="/resources/js/jquery.MultiFile.js"></script>
+    <script src="/resources/js/verify.js"></script>
+    <script type="text/javascript" src="/resources/js/verify.min.js"></script>
 
     <!--[if lt IE 9]>
     <html class="lt-ie9">

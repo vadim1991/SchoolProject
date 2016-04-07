@@ -136,17 +136,17 @@ include('/resources/js/jquery.easing.1.3.js');
 /* Contact Form
  ========================================================*/
 ;
-(function ($) {
-    var o = $('#contact-form');
-    if (o.length > 0) {
-        include('/resources/js/modal.js');
-        include('/resources/js/TMForm.js');
-
-        if($('#contact-form .recaptcha').length > 0){
-        	include('//www.google.com/recaptcha/api/js/recaptcha_ajax.js');
-        }
-    }
-})(jQuery);
+//(function ($) {
+//    var o = $('#contact-form');
+//    if (o.length > 0) {
+//        include('/resources/js/modal.js');
+//        include('/resources/js/TMForm.js');
+//
+//        if($('#contact-form .recaptcha').length > 0){
+//        	include('//www.google.com/recaptcha/api/js/recaptcha_ajax.js');
+//        }
+//    }
+//})(jQuery);
 
 /* Orientation tablet fix
  ========================================================*/

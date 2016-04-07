@@ -33,7 +33,7 @@
     <beans:bean id="multipartResolver"
                 class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <!-- setting maximum upload size -->
-        <beans:property name="maxUploadSize" value="100000"/>
+        <beans:property name="maxUploadSize" value="10000000"/>
     </beans:bean>
 
     <!-- Configure bean to convert JSON to POJO and vice versa -->
@@ -47,6 +47,7 @@
     <!--</beans:bean>-->
 
     <context:component-scan base-package="ua.com.school"/>
+
     <view-controller path="/" view-name="index"/>
     <view-controller path="/about" view-name="about"/>
     <view-controller path="/recipes" view-name="recipes"/>
