@@ -52,4 +52,10 @@
     </section>
 </footer>
 
+<script>
+    $(document).ready(function () {
+        $("#" + "${param.page}").addClass("active");
+    });
+</script>
+
 <script src="/resources/js/main.js"></script>
