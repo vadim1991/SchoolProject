@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    $("#" + "${param.page}").addClass("active");
-});
-
 $("#add-ingr").click(function () {
     addOneMore(".ingredient", "#ingredients", "Ingredient ");
 });
