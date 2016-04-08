@@ -25,51 +25,40 @@
             <div class="container">
                 <h3 class="center"><span>Create Recipe</span></h3>
 
-                <form:form id="contact-form" class='contact-form' action="/admin/recipe/create" method="post" modelAttribute="recipe" enctype="multipart/form-data">
+                <form:form id="contact-form" class='contact-form' action="/admin/recipe/create" method="post"
+                           modelAttribute="recipe" enctype="multipart/form-data">
                     <form:input path="files" type="file" class="multi with-preview upload" multiple="true"/>
                     <fieldset>
                         <label class="name">
                             <form:input data-validate="required" path="name" type="text" placeholder="Name" value=""
-                                   data-constraints="@Required @JustLetters"/>
-
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid name.</span>
+                                        data-constraints="@Required @JustLetters"/>
                         </label>
-
-                        <label class="ingredient">
-                            <form:input data-validate="required" path="ingredients" type="text" placeholder="Ingredient 1" value=""
-                                   data-constraints="@Required"/>
-
-                            <span class="empty-message">*This field is required.</span>
-                        </label>
-
-                        <label class="ingredient">
-                            <form:input data-validate="required" path="ingredients" type="text" placeholder="Ingredient 2" value=""
-                                   data-constraints="@Required"/>
-
-                            <span class="empty-message">*This field is required.</span>
-                        </label>
-
-                        <label class="step">
-                            <form:input data-validate="required" path="steps" type="text" placeholder="step 1" value=""
-                                   data-constraints="@Required"/>
-
-                            <span class="empty-message">*This field is required.</span>
-                        </label>
-
-                        <label class="step">
-                            <form:input data-validate="required" path="steps" type="text" placeholder="step 2" value=""
-                                   data-constraints="@Required"/>
-
-                            <span class="empty-message">*This field is required.</span>
-                        </label>
-
+                        <div>
+                            <a href="#" id="add-ingr" class="btn">Add ingredient</a>
+                            <a href="#" id="remove-ingr" class="btn">Remove last ingredient</a>
+                        </div>
+                        <div id="ingredients">
+                            <label class="ingredient">
+                                <form:input data-validate="required" path="ingredients" type="text"
+                                            placeholder="Ingredient 1" value=""
+                                            data-constraints="@Required"/>
+                            </label>
+                        </div>
+                        <div>
+                            <a href="#steps" id="add-step" class="btn">Add step</a>
+                            <a href="#steps" id="remove-step" class="btn">Remove last step</a>
+                        </div>
+                        <div id="steps">
+                            <label class="step">
+                                <form:input data-validate="required" path="steps" type="text" placeholder="step 1"
+                                            value=""/>
+                            </label>
+                        </div>
                         <label class="description">
-                            <form:textarea data-validate="required" path="description" name="description" placeholder="Description"
-                                                  data-constraints='@Required @Length(min=20,max=999999)'></form:textarea>
+                            <form:textarea data-validate="required" path="description" name="description"
+                                           placeholder="Description"
+                                           data-constraints='@Required @Length(min=20,max=999999)'></form:textarea>
 
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*The message is too short.</span>
                         </label>
                         <div class="btn-wr  center">
                             <button type="submit" class="btn btn__lg">Submit comment</button>
