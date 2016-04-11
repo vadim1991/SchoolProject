@@ -40,6 +40,9 @@
                     <li id="create-recipe">
                         <a href="/admin/recipe/create">Create recipe</a>
                     </li>
+                    <li id="create-course">
+                        <a href="/admin/course/create">Create course</a>
+                    </li>
                 </ul>
                 <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
                     <label class="search-form_label">

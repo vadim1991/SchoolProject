@@ -4,8 +4,10 @@ import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+import ua.com.school.entity.Course;
 import ua.com.school.entity.Recipe;
 import ua.com.school.service.UploadService;
+import ua.com.school.service.cource.CourseService;
 import ua.com.school.service.recipe.RecipeService;
 
 import java.io.IOException;
@@ -22,6 +24,8 @@ public class SchoolFacadeImpl implements SchoolFacade {
     private UploadService uploadService;
     @Autowired
     private RecipeService recipeService;
+    @Autowired
+    private CourseService courseService;
 
     @Override
     public String uploadFile(MultipartFile multipartFile) throws IOException {
@@ -45,7 +49,18 @@ public class SchoolFacadeImpl implements SchoolFacade {
     }
 
     @Override
+    public void createCourse(Course course) {
+        courseService.save(course);
+    }
+
+    @Override
     public Recipe getRecipeByName(String name) {
         return recipeService.findById(name);
     }
+
+    @Override
+    public Course getCourseByID(String id) {
+        return courseService.findById(id);
+    }
+
 }

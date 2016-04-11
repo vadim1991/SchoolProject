@@ -9,7 +9,6 @@ import org.springframework.data.mongodb.core.query.Query;
 import java.util.List;
 
 import static ua.com.school.datamodel.Constants.ID;
-import static ua.com.school.datamodel.Constants.NAME;
 
 /**
  * Created by Vadym_Vlasenko on 9/25/2015.
@@ -22,7 +21,7 @@ public class GenericMongoRepositoryImpl<T> implements GenericRepository<T> {
 
     @Override
     public T findById(String id) {
-        Query query = new Query(Criteria.where(NAME).is(id));
+        Query query = new Query(Criteria.where(ID).is(id));
         return mongoOperations.findOne(query, getClazz());
     }
 
